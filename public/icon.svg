@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1e293b" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16a34a" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="104" fill="url(#brandGrad)" />
+  <rect x="24" y="24" width="464" height="464" rx="84" fill="none" stroke="#334155" stroke-width="4" stroke-dasharray="8 8" opacity="0.4" />
+  
+  <!-- Isometric Warehouse / Cube Grid -->
+  <g transform="translate(256, 260)">
+    <!-- Top Face -->
+    <path d="M 0 -130 L 120 -60 L 0 10 L -120 -60 Z" fill="#3b82f6" opacity="0.95" />
+    <!-- Left Face -->
+    <path d="M -120 -60 L 0 10 L 0 145 L -120 75 Z" fill="#1d4ed8" />
+    <!-- Right Face -->
+    <path d="M 0 10 L 120 -60 L 120 75 L 0 145 Z" fill="#1e40af" />
+    
+    <!-- Accent Line / Indicator -->
+    <path d="M 0 10 L 0 145" stroke="#60a5fa" stroke-width="4" stroke-linecap="round" />
+    <circle cx="0" cy="10" r="8" fill="#93c5fd" />
+
+    <!-- Emerald Stock-In Arrow Floating -->
+    <g transform="translate(60, -90)">
+      <circle cx="0" cy="0" r="32" fill="url(#emeraldGrad)" />
+      <path d="M 0 -14 L 0 14 M -8 6 L 0 14 L 8 6" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+
+    <!-- Barcode Stripes on front -->
+    <g transform="translate(-85, 20) skewY(30)">
+      <rect x="0" y="0" width="5" height="36" fill="#94a3b8" />
+      <rect x="9" y="0" width="10" height="36" fill="#94a3b8" />
+      <rect x="23" y="0" width="4" height="36" fill="#94a3b8" />
+      <rect x="31" y="0" width="8" height="36" fill="#94a3b8" />
+      <rect x="43" y="0" width="3" height="36" fill="#94a3b8" />
+      <rect x="50" y="0" width="9" height="36" fill="#94a3b8" />
+    </g>
+  </g>
+
+  <!-- Industrial ERP Label -->
+  <text x="256" y="445" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="800" fill="#f8fafc" letter-spacing="5">ENTERPRISE ERP</text>
+</svg>

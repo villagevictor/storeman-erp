@@ -1,0 +1,6 @@
+{
+  "name": "Enterprise ERP & Inventory Management",
+  "description": "Enterprise Resource Planning and inventory management web app and PWA with Supabase database architecture, stock in/out tracking, thermal receipts, Ethiopian Birr (ETB) valuation, and user access control.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
